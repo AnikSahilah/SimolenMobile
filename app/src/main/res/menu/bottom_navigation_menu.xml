@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_home"
+        android:title="Home"
+        android:iconTint="@color/toska"
+        android:icon="@drawable/ic_home" />
+
+    <item
+        android:id="@+id/menu_riwayat"
+        android:title="Riwayat"
+        android:iconTint="@color/toska"
+        android:icon="@drawable/ic_history" />
+
+    <item
+        android:id="@+id/menu_profil"
+        android:title="Profil"
+        android:iconTint="@color/toska"
+        android:icon="@drawable/ic_profil" />
+</menu>
+

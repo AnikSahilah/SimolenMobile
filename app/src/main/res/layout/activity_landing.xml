@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_color"
+    tools:context=".LandingActivity">
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:elevation="10dp"
+            android:background="@drawable/layout_background2">
+            <TextView
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/inria"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:text="Selamat Datang di SiMolen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </TextView>
+            <TextView
+                android:layout_marginTop="35dp"
+                android:fontFamily="@font/ibm"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                android:text="Cari dan pesan montir pilihan "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </TextView>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/ibm"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                android:text="anda di bengkel yang anda mau di SiMolen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </TextView>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="300dp"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/register_logo"
+            android:elevation="20dp"
+            android:paddingTop="100dp"
+            android:layout_centerInParent="true"/>
+        <LinearLayout
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp">
+
+            <TextView
+                android:id="@+id/regis_txt"
+                android:gravity="center"
+                android:fontFamily="@font/ibm"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:text="Register"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/allerta_stencil"
+                    android:text="Sudah punya akun?"
+                    android:textColor="@color/white"
+                    android:textSize="16dp"/>
+                <TextView
+                    android:id="@+id/login_text"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/inter"
+                    android:textColor="@color/white"
+                    android:textSize="16dp"
+                    android:text="Login"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                </TextView>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

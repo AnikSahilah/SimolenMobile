@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#251D3A"
+    tools:context=".PemesananMontirActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include layout="@layout/appbar" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_gravity="center"
+                    android:layout_width="189dp"
+                    android:layout_height="114dp" />
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="SUPER"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/no_hp_montir"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/white"
+                    android:text="SUPER"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/latar2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_marginHorizontal="20dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/latar3"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center"
+                    android:layout_width="335dp"
+                    android:layout_height="380dp">
+
+                    <EditText
+                        android:id="@+id/nama_edittext"
+                        android:textSize="14dp"
+                        android:fontFamily="@font/inter"
+                        android:textColorHint="#B3000000"
+                        android:textColor="@color/black"
+                        android:hint="  Nama"
+                        android:padding="10dp"
+                        android:drawableLeft="@drawable/user"
+                        android:layout_marginHorizontal="20dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/lt"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:maxLines="1" />
+
+                    <EditText
+                        android:id="@+id/alamat_edittext"
+                        android:textSize="14dp"
+                        android:fontFamily="@font/inter"
+                        android:textColorHint="#B3000000"
+                        android:textColor="@color/black"
+                        android:hint="  Alamat"
+                        android:padding="10dp"
+                        android:drawableLeft="@drawable/lokasi"
+                        android:layout_marginHorizontal="20dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/lt"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:maxLines="1" />
+
+                    <EditText
+                        android:id="@+id/kerusakan"
+                        android:textSize="14dp"
+                        android:fontFamily="@font/inter"
+                        android:textColorHint="#B3000000"
+                        android:textColor="@color/black"
+                        android:hint="  Kerusakan"
+                        android:padding="10dp"
+                        android:drawableLeft="@drawable/warning"
+                        android:layout_marginHorizontal="20dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/lt"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:maxLines="1" />
+
+                    <Spinner
+                        android:id="@+id/spiner1"
+                        android:drawableStart="@drawable/user"
+                        android:layout_marginHorizontal="20dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/lt"
+                        style="@style/Widget.AppCompat.DropDownItem.Spinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp" />
+
+                    <EditText
+                        android:id="@+id/no_hp_edittext"
+                        android:textSize="14dp"
+                        android:fontFamily="@font/inter"
+                        android:textColorHint="#B3000000"
+                        android:textColor="@color/black"
+                        android:hint="  No-Hp"
+                        android:padding="10dp"
+                        android:drawableTint="@color/black"
+                        android:drawableLeft="@drawable/phone"
+                        android:layout_marginHorizontal="20dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/lt"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:maxLines="1" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:id="@+id/floats"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:background="@drawable/latarbt"
+        android:layout_height="50dp">
+            <TextView
+                android:id="@+id/lokasi"
+                android:textSize="16dp"
+                android:fontFamily="@font/inter_semibold"
+                android:textColor="@color/white"
+                android:text="Lokasi"
+                android:paddingHorizontal="10dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/pesan"
+            android:layout_marginStart="1dp"
+            android:textAlignment="center"
+            android:textSize="12dp"
+            android:onClick="createOrder"
+            android:fontFamily="@font/inter_semibold"
+            android:textColor="@color/white"
+            android:text="Buat Pesanan"
+            android:background="@drawable/custom"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:backgroundTint="#E04D01" />
+
+    </LinearLayout>
+
+</RelativeLayout>

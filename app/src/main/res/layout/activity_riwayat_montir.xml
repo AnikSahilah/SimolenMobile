@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".RiwayatMontirActivity">
+
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_marginRight="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/kembali"
+                app:backgroundTint="@color/black">
+            </Button>
+            <TextView
+                android:gravity="center"
+                android:fontFamily="@font/homenaje"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SI MOLEN"
+                android:textColor="@color/black"
+                android:textSize="35dp">
+            </TextView>
+        </LinearLayout>
+    </Toolbar>
+    <ImageView
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/riwayatmontir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </ImageView>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/latargelap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginHorizontal="30dp"
+            android:fontFamily="@font/inter"
+            android:textSize="16dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="30dp"
+            android:text="Riwayt Saya"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </TextView>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </androidx.recyclerview.widget.RecyclerView>
+    </LinearLayout>
+</LinearLayout>

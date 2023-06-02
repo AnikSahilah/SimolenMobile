@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Simolen</string>
+    <string name="PREF_EMAIL">SIMOLEN</string>
+    <string-array name="programming_languages">
+        <item>bg_radiator</item>
+        <item>bg_kabel</item>
+        <item>bg_ban</item>
+        <item>bg_baut</item>
+        <item>bg_velg</item>
+        <item>bg_spion</item>
+    </string-array>
+    <string-array name="description">
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit</item>
+    </string-array>
+    <string-array name="kendaraan">
+        <item>Mobil</item>
+        <item>Motor</item>
+    </string-array>
+    <string-array name="nama">
+        <item>Kim Namjoon</item>
+        <item>Kim Seokjin</item>
+        <item>Min Yoongi</item>
+        <item>Jung Hoseeok</item>
+        <item>Park Jimin</item>
+        <item>Kim Tehyung</item>
+        <item>Jeon Jungkok</item>
+    </string-array>
+    <string-array name="lokasi">
+        <item>Jl.Kota Kulon Bondowoso</item>
+        <item>Jl.Kota Kulon Bondowoso</item>
+        <item>Jl.Kota Kulon Bondowoso</item>
+        <item>Jl.Kota Kulon Bondowoso</item>
+        <item>Jl.Kota Kulon Bondowoso</item>
+        <item>Jl.Kota Kulon Bondowoso</item>
+        <item>Jl.Kota Kulon Bondowoso</item>
+    </string-array>
+    <string-array name="jeniskendaraan">
+        <item>Mobil</item>
+        <item>Motor</item>
+        <item>Mobil</item>
+        <item>Motor</item>
+        <item>Mobil</item>
+        <item>Motor</item>
+        <item>Mobil</item>
+    </string-array>
+    <string-array name="komentar">
+        <item>Performa bagus, kecepatan engerjaan juga sangat bagus.</item>
+        <item>Performa bagus, kecepatan engerjaan juga sangat bagus.</item>
+        <item>Performa bagus, kecepatan engerjaan juga sangat bagus.</item>
+        <item>Performa bagus, kecepatan engerjaan juga sangat bagus.</item>
+        <item>Performa bagus, kecepatan engerjaan juga sangat bagus.</item>
+        <item>Performa bagus, kecepatan engerjaan juga sangat bagus.</item>
+        <item>Performa bagus, kecepatan engerjaan juga sangat bagus.</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

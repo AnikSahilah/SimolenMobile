@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:background="@color/toska"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:gravity="center_vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+        <Button
+            android:id="@+id/btn_back"
+            app:backgroundTint="@color/white"
+            android:background="@drawable/kembali"
+            android:layout_width="30dp"
+            android:layout_height="30dp">
+        </Button>
+        <TextView
+            android:id="@+id/title_appbar"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/ibm_plex_sans_bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PEMESANAN BARANG"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="18dp">
+        </TextView>
+    </RelativeLayout>
